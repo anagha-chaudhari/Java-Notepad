@@ -42,7 +42,7 @@ public class NotepadClone extends JFrame implements ActionListener {
         JMenuItem saveFile = new JMenuItem("Save");
         JMenuItem exitApp = new JMenuItem("Exit");
 
-        toggleMode = new JMenuItem("🌙 Night Mode");
+        toggleMode = new JMenuItem("Night Mode");
         toggleMode.addActionListener(e -> animateModeChange());
 
         
@@ -76,7 +76,7 @@ public class NotepadClone extends JFrame implements ActionListener {
         fontSizeSelector.addActionListener(e -> updateFont());
 
        
-        colorButton = new JButton("Text Color 🎨");
+        colorButton = new JButton("Text Color");
         colorButton.addActionListener(e -> changeTextColor());
 
         fontPanel.add(new JLabel("Font: "));
@@ -100,7 +100,7 @@ public class NotepadClone extends JFrame implements ActionListener {
         String command = e.getActionCommand();
 
         if (command.equals("New")) {
-            textArea.setText("");  // Clear text area
+            textArea.setText("");  
             updateWordCount();
         } else if (command.equals("Open")) {
             openFile();
@@ -161,7 +161,7 @@ public class NotepadClone extends JFrame implements ActionListener {
 
     private void animateModeChange() {
         Color startColor = currentBgColor;
-        Color endColor = isDarkMode ? Color.WHITE : new Color(45, 45, 45);  // Dark gray for night mode
+        Color endColor = isDarkMode ? Color.WHITE : new Color(45, 45, 45);  
 
         animationTimer = new Timer(50, new ActionListener() {
             float progress = 0;
@@ -173,7 +173,7 @@ public class NotepadClone extends JFrame implements ActionListener {
                     progress = 1;
                     animationTimer.stop();
                     isDarkMode = !isDarkMode;
-                    toggleMode.setText(isDarkMode ? "🌞 Day Mode" : "🌙 Night Mode");
+                    toggleMode.setText(isDarkMode ? " Day Mode" : " Night Mode");
                 }
 
                 int r = (int) ((1 - progress) * startColor.getRed() + progress * endColor.getRed());
