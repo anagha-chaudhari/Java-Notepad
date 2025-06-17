@@ -12,7 +12,7 @@ A simple notepad application built using Java Swing. This project is similar to 
 - **Go To Line** | Jump to a specific line number.
 - **Word Wrap** | Enable or disable wrapping text onto the next line.
 - **Font Customization** | Change the font style, size, and type.
-- **Dark Mode** – Switch between light and dark themes.
+- **Dark Mode** | Switch between light and dark themes.
 
 ## Screenshots
 ![image](https://github.com/user-attachments/assets/eb9d7018-abab-4d8d-8efd-842b2f215544)
