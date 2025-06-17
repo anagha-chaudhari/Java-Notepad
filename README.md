@@ -4,15 +4,14 @@ A simple notepad application built using Java Swing. This project is similar to 
 
 ## Features
 
-- **Create New File** – Start writing in a blank document.
-- **Open Existing File** – Open any `.txt` file and view or edit it.
-- **Save File** – Save your current document to your computer.
-- **Cut, Copy, Paste** – Use basic text editing functions.
-- **Find and Replace** – Quickly search or replace words in your text.
-- **Go To Line** – Jump to a specific line number.
-- **Word Wrap** – Enable or disable wrapping text onto the next line.
-- **Font Customization** – Change the font style, size, and type.
-- **Status Bar** – Shows basic info like cursor position.
+- **Create New File** | Start writing in a blank document.
+- **Open Existing File** | Open any `.txt` file and view or edit it.
+- **Save File** | Save your current document to your computer.
+- **Cut, Copy, Paste** | Use basic text editing functions.
+- **Find and Replace** | Quickly search or replace words in your text.
+- **Go To Line** | Jump to a specific line number.
+- **Word Wrap** | Enable or disable wrapping text onto the next line.
+- **Font Customization** | Change the font style, size, and type.
 - **Dark Mode** – Switch between light and dark themes.
 
 ## Screenshots
